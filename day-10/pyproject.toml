@@ -1,0 +1,14 @@
+[project]
+name = "day-10"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "z3-solver>=4.15.4.0",
+]
+
+[dependency-groups]
+dev = [
+    "z3>=0.2.0",
+]
